@@ -1,0 +1,29 @@
+node_modules/
+dist/
+build/
+.vite/
+.DS_Store
+*.log
+.env
+.env.local
+
+# Electron打包文件
+output-*/
+temp-app.asar
+*.asar
+main-test.cjs
+
+# 检查目录
+check-app/
+final-check/
+extracted-new/
+temp-app/
+
+# 其他文件
+*.bat
+main.js
+*.txt
+
+# 保持核心编译文件
+!dist-electron/
+dist-electron/*.js
