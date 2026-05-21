@@ -1,0 +1,4 @@
+{
+  "name": "language-planet",
+  "main": "dist-electron/main.js"
+}
